@@ -11,6 +11,7 @@
   inputs.src-nimcrypto-master.ref   = "refs/heads/master";
   inputs.src-nimcrypto-master.owner = "cheatfate";
   inputs.src-nimcrypto-master.repo  = "nimcrypto";
+  inputs.src-nimcrypto-master.dir   = "";
   inputs.src-nimcrypto-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
